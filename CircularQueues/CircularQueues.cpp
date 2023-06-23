@@ -123,7 +123,7 @@ int main() {
 				break;
 			}
 			case '3': {
-				q.display();
+				q.display(); 
 				break;
 			}
 			}
