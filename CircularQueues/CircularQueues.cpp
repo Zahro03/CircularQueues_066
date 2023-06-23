@@ -7,8 +7,8 @@ class Queues {
 
 public:
 	Queues() {
-		FRONT = -1; 
-		REAR = -1; 
+		FRONT = -1;
+		REAR = -1;
 	}
 
 	void insert() {
@@ -36,12 +36,12 @@ public:
 				REAR = REAR + 1;
 		}
 		queue_array[REAR] = num;
-	} 
+	}
 
 	void remove() {
 		//cek apakah  antrian kosong
 		if (FRONT == -1) {
-			cout << "Queue underflow\n"; 
+			cout << "Queue underflow\n";
 			return;
 		}
 		cout << "\nThe element deleted from the queue is:" << queue_array[FRONT] << "\n";
@@ -55,8 +55,10 @@ public:
 			//jika elemen yang dihapus berada diposisi terakhir array,kembali ke awal array
 			if (FRONT == max - 1)
 				FRONT = 0;
-			else 
-				FRONT = FRONT +1
-	
-
+			else
+				FRONT = FRONT + 1;
+		}
+	}
 };
+
+
