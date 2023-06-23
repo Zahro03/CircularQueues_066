@@ -81,11 +81,7 @@ public:
 			cout << endl;
 		}
 		else {
-			//jika FRONT_position = REAR_position,iterasi  dari front hingga akhir array
-			while (FRONT_position << max - 1) {
-				cout << queue_array[FRONT_position] << " ";
-				FRONT_position++;
-			}
+			sss
 
 			FRONT_position = 0;
 
